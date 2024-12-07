@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="./about.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name], a Python developer with extensive experience in [Your Experience/Skills]. I enjoy working on projects that challenge me to learn and grow as a developer. My passion for coding started [describe your background and journey].</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/">Your LinkedIn Profile</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
